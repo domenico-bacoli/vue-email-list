@@ -14,11 +14,13 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <div id="app">
-        <ul>
+        <h1>Lista Email Random</h1>
+        <div v-if="emailList.length < 10"></div>
+        <ol v-else> 
             <li v-for="email in emailList">
                 {{email}}
             </li>
-        </ul>
+        </ol>
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>

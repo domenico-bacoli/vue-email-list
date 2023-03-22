@@ -4,14 +4,20 @@
     box-sizing: border-box;
 }
 
-#app{
-    display: flex;
-    justify-content: center;
+body{
+    font-family: sans-serif;
 }
 
-ul{
+div {
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    margin-top: 40px;
+    align-items: center;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 50px; 
 }
